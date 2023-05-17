@@ -5,6 +5,7 @@ export default function TeslaHeader({src,alt,children,}: {src: string;alt: strin
     <section className="relative h-screen w-full snap-center">
       <Image
         className="object-cover w-screen h-screen"
+        priority
         src={src}
         fill
         alt={alt}
