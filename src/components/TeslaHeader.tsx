@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function TeslaHeader({src,alt,children,}: {src: string;alt: string;children?: React.ReactNode;}) {
   return (
-    <section className="relative h-screen w-full snap-center snap-always">
+    <section className="relative h-screen w-full snap-center sm:snap-normal snap-always">
       <Image
         className="object-cover w-screen h-screen"
         priority
