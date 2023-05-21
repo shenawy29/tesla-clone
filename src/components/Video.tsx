@@ -2,7 +2,7 @@ import React from "react";
 import { forwardRef } from 'react'
 
 const Video = forwardRef<HTMLDivElement>((props, ref) => (
-  <section ref={ref} className="h-screen snap-center w-full snap-always">
+  <section ref={ref} className="h-screen snap-center w-full sm:snap-normal snap-always">
     <video
       autoPlay
       muted
